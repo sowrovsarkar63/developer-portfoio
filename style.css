@@ -1,12 +1,24 @@
 /* Font family :font-family: 'Poppins', sans-serif; */
 body {
   font-family: "Poppins", sans-serif;
-  margin: 0;
+  /* margin: 0; */
 }
-
 h1 {
   font-size: 50px;
 }
-h2 {
-  font-size: 40px;
+
+section {
+  display: flex;
+}
+.orange-color {
+  color: orange;
+}
+
+.half-width {
+  width: 50%;
+  padding: 5%;
+}
+
+.half-width img {
+  width: 80%;
 }
