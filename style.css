@@ -6,10 +6,12 @@ body {
 h1 {
   font-size: 50px;
 }
-
-section {
+h2 {
+  font-size: 40px;
+}
+.flexible-container {
   display: flex;
-  margin-bottom: 100px;
+  /* margin-bottom: 20px; */
 }
 .orange-color {
   color: orange;
@@ -43,4 +45,7 @@ section {
   background-image: url(./images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.experience-area h1 {
+  text-align: center;
 }
